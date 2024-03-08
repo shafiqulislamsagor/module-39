@@ -1,4 +1,7 @@
-import './App.css'
+import './App.css';
+import Rounter from './Rount';
+
+
 
 function App() {
 
@@ -16,6 +19,7 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
+      <Rounter></Rounter>
       <button onClick={handleClick}>Click Me</button> 
       <button onClick={handleClick2}>Click Me2</button> 
       <button onClick={() => {alert('hi suna')}}>Click Me3</button> 
