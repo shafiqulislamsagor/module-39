@@ -1,5 +1,6 @@
 import './App.css';
 import Rounter from './Rount';
+import Team from './Team';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
+      <Team></Team>
       <Rounter></Rounter>
       <button onClick={handleClick}>Click Me</button> 
       <button onClick={handleClick2}>Click Me2</button> 

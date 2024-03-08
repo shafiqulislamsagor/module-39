@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export default function Rounter(){
     const [count, counterFunction] = useState(0);
